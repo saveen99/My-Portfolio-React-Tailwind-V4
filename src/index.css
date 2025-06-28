@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
 
+@plugin "tailwind-scrollbar";
+
 @theme {
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
