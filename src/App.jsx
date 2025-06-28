@@ -1,12 +1,12 @@
-function App() {
+/**
+* @copyright 2025 Saveen Maduranga
+*/
+
+const App = () => {
 
   return (
-    <div className="relative h-screen">
-  <div className="absolute text-accent top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-    SAVEEN MADURANGA
-  </div>
-</div>
+    <h1>Hello</h1>
   )
 }
 
-export default App
+export default App;

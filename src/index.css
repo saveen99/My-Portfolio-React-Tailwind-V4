@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
 
 @theme {
   --breakpoint-sm: 640px;
@@ -8,6 +9,14 @@
   --breakpoint-2xl: 1670px;
   --color-accent: #179957;
   --color-accent-dark: #184D47;
-  --font-poppins: Poppins, sans-serif;
+  --font-inter: Inter, sans-serif;
 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-900 text-zinc-50 h-[200vh]
 }
