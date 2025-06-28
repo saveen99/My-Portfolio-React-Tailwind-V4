@@ -8,15 +8,25 @@ const Header = () => {
         <div className="max-w-screen-2xl w-full max-auto px-4">
             <h1>
                 <a 
-                href="/" 
-                className="logo">
+                    href="/" 
+                    className="logo"
+                >
                     <img 
-                    src="/images/logo.svg" 
-                    width={40}
-                    height={40}
-                    alt="Saveen Maduranga" />
+                        src="/images/logo.svg" 
+                        width={40}
+                        height={40}
+                        alt="Saveen Maduranga" 
+                    />
                 </a>
             </h1>
+
+            <div className="">
+                <button className="" onClick={null}>
+                    <span className="material-symbols-rounded">
+                        menu
+                    </span>
+                </button>
+            </div>
         </div>
     </header>
   )
