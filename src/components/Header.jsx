@@ -1,6 +1,12 @@
 /**
 * @copyright 2025 Saveen Maduranga
 */
+
+/**
+ * Componrnts
+ */
+import Navbar from "./Navbar"
+
 /**
  * md:grid md:grid-cols-[1fr,3fr,1fr]
  */
@@ -30,10 +36,13 @@ const Header = () => {
                     </span>
                 </button>
 
-                Navbar
+                <Navbar />
             </div>
 
-            <a href="#contact" className="">
+            <a 
+            href="#contact" 
+            className="btn btn-secondary max-md:hidden md:justify-self-end"
+            >
                 Contact Me
             </a>
 
