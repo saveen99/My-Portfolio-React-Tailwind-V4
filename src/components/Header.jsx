@@ -42,7 +42,7 @@ const Header = () => {
                 onClick={() => setNavOpen((prev) => !prev)}
                 >
                     <span className="material-symbols-rounded">
-                        menu
+                        {navOpen ? 'close' : 'menu'}
                     </span>
                 </button>
 
