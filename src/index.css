@@ -30,6 +30,13 @@ body {
   @apply bg-zinc-900 text-zinc-50
 }
 
+/* Utilities */
+.material-symbols-rounded {
+  @apply w-[1em] h-[1em] overflow-hidden;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+
 /* Components */
 /* Menu Btn */
 /* transition-[transform, background-color] */
