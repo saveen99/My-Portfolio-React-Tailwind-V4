@@ -112,3 +112,7 @@ body {
 .btn-secondary {
   @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80
 }
+
+.btn .material-symbols-rounded {
+  @apply text-[18px]
+}
