@@ -101,12 +101,12 @@ body {
 
 .btn {
   @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium
-  text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color]
+  text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color] cursor-pointer
 }
 
 .header-btn {
   @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium
-  text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color] max-md:hidden
+  text-sm ring-1 ring-zinc-50/5 ring-inset transition-[background-color] max-md:hidden cursor-pointer
 }
 
 .btn-secondary {
