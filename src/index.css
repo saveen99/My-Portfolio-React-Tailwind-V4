@@ -30,6 +30,18 @@ body {
   @apply bg-zinc-900 text-zinc-50
 }
 
+/* Typography */
+.headline-1 {
+  @apply max-w-max;
+  background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.headline-1 {
+  @apply text-4xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15]
+}
+
 /* Utilities */
 .material-symbols-rounded {
   @apply w-[1em] h-[1em] overflow-hidden;
@@ -42,6 +54,10 @@ body {
 
 .img-box {
   @apply bg-zinc-700 overflow-hidden;
+}
+
+.img-cover {
+  @apply w-full h-full object-cover
 }
 
 /* Components */
