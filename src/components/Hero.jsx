@@ -5,7 +5,7 @@
 /**
  * Components
  */
-import { ButtonPrimary } from "./Button";
+import { ButtonPrimary, ButtonOutline } from "./Button";
 
 const Hero = () => {
   return (
@@ -47,7 +47,11 @@ const Hero = () => {
                         classes="ml-2"
                     />
 
-                    ButtonOutline
+                    <ButtonOutline
+                        href="#about"
+                        label="Scroll Down"
+                        icon="arrow_downward"
+                    />
                 </div>
 
             </div>
