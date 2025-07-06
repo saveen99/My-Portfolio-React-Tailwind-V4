@@ -52,6 +52,9 @@ const Skill = () => {
             <h2 className="headline-2">
                 Essential Tools I use
             </h2>
+            <p className="">
+                Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
+            </p>
         </div>
     </section>
   )
