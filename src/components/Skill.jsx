@@ -55,6 +55,14 @@ const Skill = () => {
             <p className="">
                 Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.
             </p>
+
+            <div className="">
+                {
+                    skillItem.map(({ imgSrc, label, desc }, key) => (
+                        'SkillCard'
+                    ))
+                }
+            </div>
         </div>
     </section>
   )
