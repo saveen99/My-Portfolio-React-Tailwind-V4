@@ -2,6 +2,11 @@
 * @copyright 2025 Saveen Maduranga
 */
 
+/**
+ * Components
+ */
+import SkillCard from "./SkillCard";
+
 const skillItem = [
   {
     imgSrc: '/images/figma.svg',
@@ -60,7 +65,7 @@ const Skill = () => {
             <div className="">
                 {
                     skillItem.map(({ imgSrc, label, desc }, key) => (
-                        'SkillCard'
+                        <SkillCard />
                     ))
                 }
             </div>
