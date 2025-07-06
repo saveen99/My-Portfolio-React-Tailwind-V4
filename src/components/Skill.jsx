@@ -1,4 +1,6 @@
-import React from 'react'
+/**
+* @copyright 2025 Saveen Maduranga
+*/
 
 const Skill = () => {
   return (
