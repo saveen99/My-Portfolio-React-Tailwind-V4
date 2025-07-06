@@ -47,7 +47,13 @@ const skillItem = [
 
 const Skill = () => {
   return (
-    <div>Skill</div>
+    <section className="section">
+        <div className="container">
+            <h2 className="headline-2">
+                Essential Tools I use
+            </h2>
+        </div>
+    </section>
   )
 }
 
