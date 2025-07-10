@@ -54,7 +54,9 @@ const Work = () => {
         </h2>
 
         <div className="">
-          PortfolioCard
+          {works.map(({ imgSrc, title, tags, projectLink }, key) => (
+            'ProjectCard'
+          ))}
         </div>
       </div>
     </section>
