@@ -44,7 +44,20 @@ const works = [
 
 const Work = () => {
   return (
-    <div>Work</div>
+    <section 
+      id="work"
+      className="section"
+    >
+      <div className="container">
+        <h2 className="headline-2 mb-8">
+          My portfolio highlights
+        </h2>
+
+        <div className="">
+          PortfolioCard
+        </div>
+      </div>
+    </section>
   )
 }
 
