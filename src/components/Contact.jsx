@@ -40,6 +40,7 @@ const Contact = () => {
       className="section"
     >
       <div className="container">
+
         <div className="">
           <h2 className="headline-2">
             Contact me for collaboration
@@ -62,6 +63,83 @@ const Contact = () => {
             ))}
           </div>
         </div>
+
+        <form 
+          action="" 
+          method="POST"
+          className=""
+        >
+          <div className="">
+
+            <div className="label">
+              <label 
+                htmlFor="name" 
+                className=""
+              >
+                Name
+              </label>
+
+              <input 
+                type="text" 
+                name="name"
+                id="name"
+                autoComplete="name"
+                required
+                placeholder="Saveen Maduranga"
+                className="text-field"
+              />
+
+            </div>
+
+            <div className="label">
+              <label 
+                htmlFor="email" 
+                className=""
+              >
+                Email
+              </label>
+
+              <input 
+                type="text" 
+                name="email"
+                id="email"
+                autoComplete="email"
+                required
+                placeholder="saveen123@gmail.com"
+                className="text-field"
+              />
+
+            </div>
+
+
+          </div>
+
+          <div className="">
+            <label 
+              htmlFor="message" 
+              className="label"
+            >
+              Message
+            </label>
+
+            <textarea 
+              name="message" 
+              id="message" 
+              placeholder="Hi! "
+              required
+              className="text-field"
+            ></textarea>
+          </div>
+
+          <button 
+            type="submit" 
+            className="btn btn-primary"
+          >
+            Submit
+          </button>
+
+        </form>
+
       </div>
     </section>
   )
