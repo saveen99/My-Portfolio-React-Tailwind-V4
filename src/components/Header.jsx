@@ -28,7 +28,7 @@ const Header = () => {
                     className="logo"
                 >
                     <img 
-                        src="/images/logo.svg" 
+                        src="/images/logo.png" 
                         width={40}
                         height={40}
                         alt="Saveen Maduranga" 
