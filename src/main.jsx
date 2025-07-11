@@ -18,6 +18,7 @@ import App from './App.jsx';
  * CSS link
  */
 import './index.css';
+import 'lenis/dist/lenis.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
