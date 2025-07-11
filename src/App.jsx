@@ -7,6 +7,14 @@
  * Node Modules
  */
 import { ReactLenis } from 'lenis/react';
+import gsap from 'gsap';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from '@gsap/react';
+
+/**
+ * Register gsap plugins
+ */
+gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to avoid React version discrepancies 
 
 
 import About from "./components/About";
@@ -18,6 +26,23 @@ import Skill from "./components/Skill";
 import Work from "./components/Work";
 
 const App = () => {
+
+  useGSAP(() => {
+    const elements = gsap.utils.toArray('.reveal-up');
+
+    elements.forEach((element) => {
+      gsap.to(element, {
+        scrollTrigger: {
+          trigger: element,
+          scrub: true
+        },
+        y: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'power2.out'
+      })
+    });
+  });
 
   return (
     <ReactLenis root>
