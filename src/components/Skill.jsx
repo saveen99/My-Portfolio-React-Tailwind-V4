@@ -29,22 +29,22 @@ const skillItem = [
     desc: 'CSS Framework'
   },
   {
-    imgSrc: '/images/expressjs.svg',
+    imgSrc: '/images/java.svg',
     label: 'Java',
     desc: 'Backend Language'
   },
   {
-    imgSrc: '/images/mongodb.svg',
+    imgSrc: '/images/spring-boot.svg',
     label: 'Spring Boot',
     desc: 'Backend Framework'
   },
   {
-    imgSrc: '/images/react.svg',
+    imgSrc: '/images/mysql.svg',
     label: 'MySQL',
     desc: 'Database'
   },
   {
-    imgSrc: '/images/css3.svg',
+    imgSrc: '/images/jira.svg',
     label: 'Jira',
     desc: 'Project Management Tool'
   },
