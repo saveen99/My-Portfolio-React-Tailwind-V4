@@ -14,39 +14,39 @@ const skillItem = [
     desc: 'Design tool'
   },
   {
-    imgSrc: '/images/css3.svg',
-    label: 'CSS',
-    desc: 'User Interface'
-  },
-  {
     imgSrc: '/images/javascript.svg',
     label: 'JavaScript',
-    desc: 'Interaction'
-  },
-  {
-    imgSrc: '/images/nodejs.svg',
-    label: 'NodeJS',
-    desc: 'Web Server'
-  },
-  {
-    imgSrc: '/images/expressjs.svg',
-    label: 'ExpressJS',
-    desc: 'Node Framework'
-  },
-  {
-    imgSrc: '/images/mongodb.svg',
-    label: 'MongoDB',
-    desc: 'Database'
+    desc: 'Programming Language'
   },
   {
     imgSrc: '/images/react.svg',
     label: 'React',
-    desc: 'Framework'
+    desc: 'Frontend Library'
   },
   {
     imgSrc: '/images/tailwindcss.svg',
     label: 'TailwindCSS',
-    desc: 'User Interface'
+    desc: 'CSS Framework'
+  },
+  {
+    imgSrc: '/images/expressjs.svg',
+    label: 'Java',
+    desc: 'Backend Language'
+  },
+  {
+    imgSrc: '/images/mongodb.svg',
+    label: 'Spring Boot',
+    desc: 'Backend Framework'
+  },
+  {
+    imgSrc: '/images/react.svg',
+    label: 'MySQL',
+    desc: 'Database'
+  },
+  {
+    imgSrc: '/images/css3.svg',
+    label: 'Jira',
+    desc: 'Project Management Tool'
   },
 ];
 
