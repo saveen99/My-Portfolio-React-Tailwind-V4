@@ -66,6 +66,10 @@ body {
   @apply bg-zinc-700 overflow-hidden w-full h-50;
 }
 
+.img-box-hero {
+  @apply bg-zinc-700 overflow-hidden
+}
+
 .img-cover {
   @apply w-full h-full object-cover
 }
