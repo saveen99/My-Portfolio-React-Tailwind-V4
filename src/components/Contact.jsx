@@ -50,13 +50,13 @@ const Contact = () => {
             Reach out today to discuss your project needs and start collaborating on something amazing!
           </p>
 
-          <div className="">
+          <div className="flex items-center gap-2 mt-auto">
             {socialLinks.map(({ href, icon }, key) => (
               <a 
                 key={key}
                 href={href}
                 target='_blank'
-                className=""
+                className="w-12 h-12 grid place-items-center ring-inset ring-2 ring-zinc-50/5 rounded-lg transition-[background-color,color] hover:bg-zinc-50 hover:text-zinc-950 active:bg-zinc-50/80"
               >
                 {icon}
               </a>
@@ -67,14 +67,14 @@ const Contact = () => {
         <form 
           action="" 
           method="POST"
-          className=""
+          className="xl:pl-10 2xl:pl-20"
         >
-          <div className="">
+          <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
 
-            <div className="label">
+            <div className="mb-4">
               <label 
                 htmlFor="name" 
-                className=""
+                className="label"
               >
                 Name
               </label>
@@ -91,10 +91,10 @@ const Contact = () => {
 
             </div>
 
-            <div className="label">
+            <div className="mb-4">
               <label 
                 htmlFor="email" 
-                className=""
+                className="label"
               >
                 Email
               </label>
@@ -114,7 +114,7 @@ const Contact = () => {
 
           </div>
 
-          <div className="">
+          <div className="mb-4">
             <label 
               htmlFor="message" 
               className="label"
@@ -127,14 +127,14 @@ const Contact = () => {
               id="message" 
               placeholder="Hi! "
               required
-              className="text-field"
+              className="text-field resize-y min-h-32 max-h-80"
             ></textarea>
           </div>
 
           <button 
             type="submit" 
-            className="btn btn-primary"
-          >
+            className="btn-contact btn-primary [&]:max-w-full w-full justify-center"
+          > 
             Submit
           </button>
 
