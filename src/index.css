@@ -74,6 +74,10 @@ body {
   @apply pt-20 lg:pt-32
 }
 
+.reveal-up {
+  @apply translate-y-20 opacity-0
+}
+
 /* Components */
 /* Menu Btn */
 /* transition-[transform, background-color] */
