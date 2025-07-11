@@ -76,7 +76,7 @@ const Footer = () => {
                 <div className="grid grid-cols-2 gap-4 lg:pl-20">
 
                     <div>
-                        <p className="mb-2 reveal-up">Sitemap</p>
+                        <p className="mb-2 reveal-up">Site Map</p>
 
                         <ul>
                             {sitemap.map(({ label, href }, key) => (
@@ -93,7 +93,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <p className="mb-2 reveal-up">Social</p>
+                        <p className="mb-2 reveal-up">Social Media</p>
 
                         <ul>
                             {socials.map(({ label, href }, key) => (
