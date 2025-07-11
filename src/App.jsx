@@ -2,6 +2,13 @@
 * @copyright 2025 Saveen Maduranga
 */
 
+
+/**
+ * Node Modules
+ */
+import { ReactLenis } from 'lenis/react';
+
+
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -13,7 +20,7 @@ import Work from "./components/Work";
 const App = () => {
 
   return (
-    <>
+    <ReactLenis root>
       <Header />
       <main>
         <Hero />
@@ -23,7 +30,7 @@ const App = () => {
         <Contact />
       </main>
       <Footer />
-    </>
+    </ReactLenis>
   )
 }
 
