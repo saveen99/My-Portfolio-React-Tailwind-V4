@@ -54,7 +54,7 @@ const Work = () => {
       className="section"
     >
       <div className="container">
-        <h2 className="headline-2 mb-8">
+        <h2 className="headline-2 mb-8 reveal-up">
           My portfolio highlights
         </h2>
 
