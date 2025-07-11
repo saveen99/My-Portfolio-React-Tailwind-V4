@@ -33,23 +33,23 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org'
+    href: 'https://github.com/saveen99'
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee'
+    href: 'www.linkedin.com/in/saveen-maduranga-939250181'
   },
   {
     label: 'Twitter X',
-    href: 'https://x.com/codewithsadee_'
+    href: ''
   },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/codewithsadee'
+    href: ''
   },
   {
-    label: 'CodePen',
-    href: 'https://codepen.io/codewithsadee'
+    label: 'Facebook',
+    href: ''
   }
 ];
 
