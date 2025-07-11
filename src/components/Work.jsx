@@ -10,8 +10,8 @@ import ProjectCard from "./ProjectCard";
 const works = [
   {
     imgSrc: '/images/project-1.jpg',
-    title: 'Full stack music app',
-    tags: ['API', 'MVC', 'Development'],
+    title: 'AASL - Training Management System',
+    tags: ['Laravel', 'Talwind', 'MySQL'],
     projectLink: 'https://musify-5al0.onrender.com/'
   },
   {
