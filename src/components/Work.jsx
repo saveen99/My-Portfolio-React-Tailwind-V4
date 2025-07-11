@@ -12,37 +12,37 @@ const works = [
     imgSrc: '/images/project-1.jpeg',
     title: 'AASL - Training Management System',
     tags: ['Laravel', 'Talwind', 'MySQL'],
-    projectLink: 'https://musify-5al0.onrender.com/'
+    projectLink: ''
   },
   {
     imgSrc: '/images/project-2.jpeg',
     title: 'AASL - Key Management System Mobile App',
     tags: ['Kotlin', 'SQLite', 'Android Studio'],
-    projectLink: 'https://pixstock-official.vercel.app/'
+    projectLink: 'https://github.com/saveen99/key-management-mobile-kotlin.git'
   },
   {
     imgSrc: '/images/project-3.png',
     title: 'Hardware Management Web System (WPL Trading)',
     tags: ['JavaScript', 'PHP', 'MySQL'],
-    projectLink: ''
+    projectLink: 'https://github.com/saveen99/Ecommerce-website-wplTrading.git'
   },
   {
     imgSrc: '/images/project-4.png',
     title: 'E-commerce website',
     tags: ['React', 'Tailwind CSS'],
-    projectLink: 'https://github.com/codewithsadee-org/wealthome'
+    projectLink: 'https://github.com/saveen99/E-Commerce_React-TypeScript-Tailwind.git'
   },
   {
     imgSrc: '/images/project-5.png',
     title: 'Car Service website ( Sasik Service Station )',
     tags: ['React', 'Tailwind CSS', 'Firebase'],
-    projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+    projectLink: 'https://github.com/saveen99/sasik-car-care.git'
   },
   {
     imgSrc: '/images/project-6.png',
     title: 'Restaurant Landing Page',
     tags: ['React', 'CSS'],
-    projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    projectLink: 'https://github.com/saveen99/Restaurant-landing-page-React.git'
   },
 ];
 
