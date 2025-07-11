@@ -24,7 +24,8 @@ const About = () => {
         md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl
           md:max-w-[60ch]">
-            Welcome! I&apos;m Henry, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.
+            Welcome! I&apos;m Saveen, a passionate Software Engineer with a talent for building efficient, scalable, and user-friendly applications.
+            Blending problem-solving skills with technical precision, I bring your ideas to life through clean code, smart architecture, and seamless functionality. Whether it&apos;s front-end, back-end, or full-stack development — I deliver robust solutions that perform as great as they look.
           </p>
           <div className="flex flex-wrap items-center gap-4
           md:gap-7">
