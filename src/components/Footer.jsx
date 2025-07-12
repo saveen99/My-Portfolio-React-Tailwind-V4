@@ -13,19 +13,15 @@ const sitemap = [
     href: '#home'
   },
   {
-    label: 'About',
+    label: 'About me',
     href: '#about'
   },
   {
-    label: 'Work',
+    label: 'Projects',
     href: '#work'
   },
   {
-    label: 'Reviews',
-    href: '#reviews'
-  },
-  {
-    label: 'Contact me',
+    label: 'Contact',
     href: '#contact'
   }
 ];
@@ -45,10 +41,6 @@ const socials = [
   },
   {
     label: 'Instagram',
-    href: ''
-  },
-  {
-    label: 'Facebook',
     href: ''
   }
 ];
@@ -76,14 +68,14 @@ const Footer = () => {
                 <div className="grid grid-cols-2 gap-4 lg:pl-20">
 
                     <div>
-                        <p className="mb-2 reveal-up">Site Map</p>
+                        <p className="mb-3 reveal-up">Site Map</p>
 
                         <ul>
                             {sitemap.map(({ label, href }, key) => (
                                 <li key={key}>
                                     <a 
                                         href={href}
-                                        className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up"
+                                        className="block text-sm text-zinc-400 py-2 transition-colors hover:text-zinc-200 reveal-up"
                                     >
                                         {label}
                                     </a>
@@ -93,7 +85,7 @@ const Footer = () => {
                     </div>
 
                     <div>
-                        <p className="mb-2 reveal-up">Social Media</p>
+                        <p className="mb-3 reveal-up">Social Media</p>
 
                         <ul>
                             {socials.map(({ label, href }, key) => (
@@ -101,7 +93,7 @@ const Footer = () => {
                                     <a 
                                         href={href}
                                         target='_blank'
-                                        className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200 reveal-up"
+                                        className="block text-sm text-zinc-400 py-2 transition-colors hover:text-zinc-200 reveal-up"
                                     >
                                         {label}
                                     </a>
