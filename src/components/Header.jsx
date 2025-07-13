@@ -3,6 +3,11 @@
 */
 
 /**
+ * Icons
+ */
+import { MdAddCall } from "react-icons/md";
+
+/**
  * Node modules
  */
 import { useState } from "react"
@@ -53,7 +58,7 @@ const Header = () => {
             href="#contact" 
             className="header-btn btn-secondary max-md:hidden md:justify-self-end"
             >
-                Contact Me
+                Contact Me <span> <MdAddCall /> </span>
             </a>
 
         </div>
