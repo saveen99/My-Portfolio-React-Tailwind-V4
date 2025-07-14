@@ -23,7 +23,7 @@ const About = () => {
         <div className="bg-zinc-800/50 p-7 rounded-2xl
         md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl
-          md:max-w-[60ch]">
+          md:max-w-[80ch]">
             Welcome! I&apos;m Saveen, a passionate Software Engineer with a talent for building efficient, scalable, and user-friendly applications.
             Blending problem-solving skills with technical precision, I bring your ideas to life through clean code, smart architecture, and seamless functionality. Whether it&apos;s front-end, back-end, or full-stack development — I deliver robust solutions that perform as great as they look.
           </p>
