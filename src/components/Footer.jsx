@@ -36,7 +36,7 @@ const socials = [
     href: 'www.linkedin.com/in/saveen-maduranga-939250181'
   },
   {
-    label: 'Twitter X',
+    label: 'Whatsapp',
     href: ''
   },
   {
