@@ -10,7 +10,7 @@ import { ButtonPrimary, ButtonOutline } from "./Button";
 const Hero = () => {
   return (
     <section id="home" 
-    className="pt-28 lg:pt-36">
+    className="pt-28 lg:pt-36 mb-[-70px]">
 
         <div className="container items-center lg:grid 
         lg:grid-cols-2 lg:gap-10">
@@ -58,7 +58,7 @@ const Hero = () => {
             </div>
 
             <div className="hidden lg:block">
-                <figure className="w-[400px] max-w-[480px] ml-auto bg-gradient-to-t
+                <figure className="w-[350px] max-w-[480px] ml-auto bg-gradient-to-t
                 from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
                     <img src="/images/hero-banner.jpg" 
                     width={656}
