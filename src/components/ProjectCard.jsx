@@ -64,7 +64,6 @@ const ProjectCard = ({
 
 
 
-
 ProjectCard.propTypes = {
     imgSrc: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
