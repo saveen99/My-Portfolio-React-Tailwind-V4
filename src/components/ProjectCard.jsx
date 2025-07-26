@@ -48,7 +48,7 @@ const ProjectCard = ({
                     className="material-symbols-rounded"
                     aria-hidden="true"
                 >
-                    arrow_outward
+                    open_in_new
                 </span>
             </div>
         </div>
