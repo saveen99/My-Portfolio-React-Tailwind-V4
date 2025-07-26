@@ -9,13 +9,13 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: '/images/project-1.jpeg',
+    imgSrc: '/images/project-1.png',
     title: 'AASL - Training Management System',
     tags: ['Laravel', 'Talwind', 'MySQL'],
     projectLink: ''
   },
   {
-    imgSrc: '/images/project-2.jpeg',
+    imgSrc: '/images/project-2.png',
     title: 'AASL - Key Management System Mobile App',
     tags: ['Kotlin', 'SQLite', 'Android Studio'],
     projectLink: 'https://github.com/saveen99/key-management-mobile-kotlin.git'

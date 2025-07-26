@@ -63,7 +63,7 @@ body {
 }
 
 .img-box {
-  @apply bg-zinc-700 overflow-hidden w-full h-50;
+  @apply bg-zinc-700 overflow-hidden w-full h-40;
 }
 
 .img-box-hero {
