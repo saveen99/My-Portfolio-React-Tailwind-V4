@@ -37,11 +37,11 @@ const socials = [
   },
   {
     label: 'Whatsapp',
-    href: ''
+    href: 'https://wa.me/94773730768'
   },
   {
     label: 'Instagram',
-    href: ''
+    href: 'https://www.instagram.com/saveenmaduranga/'
   }
 ];
 
