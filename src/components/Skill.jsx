@@ -9,34 +9,34 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: '/images/figma.svg',
-    label: 'Figma',
-    desc: 'Design tool'
-  },
-  {
     imgSrc: '/images/javascript.svg',
     label: 'JavaScript',
     desc: 'Programming Language'
   },
   {
     imgSrc: '/images/react.svg',
-    label: 'React',
+    label: 'React JS',
     desc: 'Frontend Library'
   },
   {
     imgSrc: '/images/tailwindcss.svg',
-    label: 'TailwindCSS',
+    label: 'Tailwind CSS',
     desc: 'CSS Framework'
   },
   {
-    imgSrc: '/images/java.svg',
-    label: 'Java',
-    desc: 'Backend Language'
+    imgSrc: '/images/typescript.svg',
+    label: 'TypeScript',
+    desc: 'Superset of JavaScript'
   },
   {
-    imgSrc: '/images/spring-boot.svg',
-    label: 'Spring Boot',
-    desc: 'Backend Framework'
+    imgSrc: '/images/redux.svg',
+    label: 'Redux Tool kit',
+    desc: 'State Management Tool'
+  },
+  {
+    imgSrc: '/images/nextjs.svg',
+    label: 'Next JS',
+    desc: 'Full-Stack Framework'
   },
   {
     imgSrc: '/images/mysql.svg',
