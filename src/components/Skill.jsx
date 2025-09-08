@@ -3,48 +3,56 @@
 */
 
 /**
- * Components
+ * Components & images
  */
 import SkillCard from "./SkillCard";
+import js from '../assets/images/javascript.svg'
+import react from '../assets/images/react.svg'
+import tailwind from '../assets/images/tailwindcss.svg'
+import ts from '../assets/images/typescript.svg'
+import redux from '../assets/images/redux.svg'
+import next from '../assets/images/nextjs.svg'
+import mysql from '../assets/images/mysql.svg'
+import jira from '../assets/images/jira.svg'
 
 const skillItem = [
   {
-    imgSrc: '/images/javascript.svg',
+    imgSrc: js,
     label: 'JavaScript',
     desc: 'Programming Language'
   },
   {
-    imgSrc: '/images/react.svg',
+    imgSrc: react,
     label: 'React JS',
     desc: 'Frontend Library'
   },
   {
-    imgSrc: '/images/tailwindcss.svg',
+    imgSrc: tailwind,
     label: 'Tailwind CSS',
     desc: 'CSS Framework'
   },
   {
-    imgSrc: '/images/typescript.svg',
+    imgSrc: ts,
     label: 'TypeScript',
     desc: 'Superset of JavaScript'
   },
   {
-    imgSrc: '/images/redux.svg',
+    imgSrc: redux,
     label: 'Redux Tool kit',
     desc: 'State Management Tool'
   },
   {
-    imgSrc: '/images/nextjs.svg',
+    imgSrc: next,
     label: 'Next JS',
     desc: 'Full-Stack Framework'
   },
   {
-    imgSrc: '/images/mysql.svg',
+    imgSrc: mysql,
     label: 'MySQL',
     desc: 'Database'
   },
   {
-    imgSrc: '/images/jira.svg',
+    imgSrc: jira,
     label: 'Jira',
     desc: 'Project Management Tool'
   },

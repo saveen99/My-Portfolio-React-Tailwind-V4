@@ -2,6 +2,8 @@
 * @copyright 2025 Saveen Maduranga
 */
 
+import logo from '../assets/images/logo.png'
+
 const aboutItems = [
   {
     label: 'Project done',
@@ -43,7 +45,7 @@ const About = () => {
             }
 
             <img 
-            src="/images/logo.png" 
+            src={logo} 
             alt="Logo"
             width={30}
             height={30}

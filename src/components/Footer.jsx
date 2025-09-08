@@ -6,6 +6,7 @@
  * Components
  */
 import { ButtonPrimary } from "./Button";
+import logo from '../assets/images/logo.png'
 
 const sitemap = [
   {
@@ -110,7 +111,7 @@ const Footer = () => {
                     className="logo reveal-up"
                 >
                     <img 
-                        src="/images/logo.png"
+                        src={logo}
                         width={40}
                         height={40}
                         alt="Logo" 
