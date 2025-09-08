@@ -29,7 +29,7 @@ const works = [
   {
     imgSrc: '/images/project-4.png',
     title: 'E-commerce website',
-    tags: ['React', 'Tailwind CSS'],
+    tags: ['React', 'Tailwind CSS', 'TypeScript'],
     projectLink: 'https://github.com/saveen99/E-Commerce_React-TypeScript-Tailwind.git'
   },
   {
