@@ -13,9 +13,10 @@ import { MdAddCall } from "react-icons/md";
 import { useState } from "react"
 
 /**
- * Componrnts
+ * Components & images
  */
 import Navbar from "./Navbar"
+import logo from '../assets/images/logo.png'
 
 /**
  * md:grid md:grid-cols-[1fr,3fr,1fr]
@@ -33,7 +34,7 @@ const Header = () => {
                     className="logo"
                 >
                     <img 
-                        src="/images/logo.png" 
+                        src={logo} 
                         width={40}
                         height={40}
                         alt="Saveen Maduranga" 
