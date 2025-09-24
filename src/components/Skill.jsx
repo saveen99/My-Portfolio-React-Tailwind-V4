@@ -14,6 +14,10 @@ import redux from '../assets/images/redux.svg'
 import next from '../assets/images/nextjs.svg'
 import mysql from '../assets/images/mysql.svg'
 import jira from '../assets/images/jira.svg'
+import Kotlin from '../assets/images/Kotlin.svg'
+import Flutter from '../assets/images/Flutter.svg'
+import Dart from '../assets/images/Dart.svg'
+import SQLite from '../assets/images/SQLite.svg'
 
 const skillItem = [
   {
@@ -55,6 +59,26 @@ const skillItem = [
     imgSrc: jira,
     label: 'Jira',
     desc: 'Project Management Tool'
+  },
+  {
+    imgSrc: Kotlin,
+    label: 'Kotlin',
+    desc: 'Programming Language'
+  },
+  {
+    imgSrc: Flutter,
+    label: 'Flutter',
+    desc: 'UI Framework'
+  },
+  {
+    imgSrc: Dart,
+    label: 'Dart',
+    desc: 'Programming Language'
+  },
+  {
+    imgSrc: SQLite,
+    label: 'SQLite',
+    desc: 'Database Engine'
   },
 ];
 
