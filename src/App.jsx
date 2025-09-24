@@ -24,6 +24,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Skill from "./components/Skill";
 import Work from "./components/Work";
+import Education from './components/Education';
 
 const App = () => {
 
@@ -54,6 +55,7 @@ const App = () => {
         <About />
         <Skill />
         <Work />
+        <Education />
         <Contact />
       </main>
       <Footer />
