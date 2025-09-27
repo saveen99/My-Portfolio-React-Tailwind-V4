@@ -6,12 +6,14 @@ Co-Founder of **Endless Raven Pvt Ltd**
 
 ---
 
-### 🔧 Tech Stack 
-- **Languages**: JavaScript, TypeScript, Python, Java, C#  
-- **Frontend**: React, Tailwind CSS, HTML, CSS  
-- **Backend**: Node.js, Express.js, .NET  
-- **Databases**: MySQL, MongoDB, PostgreSQL  
-- **Tools & Platforms**: Git, GitHub, VS Code, Docker  
+### Tech Stack 
+
+- **Programming Languages**: JavaScript, TypeScript, Java, Dart
+- **Frontend Frameworks**: React.js, Tailwind CSS, Flutter, Next.js 
+- **Backend Frameworks**: Node.js, Express.js, Spring Boot 
+- **Databases**: MySQL, MongoDB, SQLite  
+- **Tools & Platforms**: Git, GitHub, Jira, Redux, Docker 
+- **IDEs**:  VS Code, Android Studio
 
 ---
 
