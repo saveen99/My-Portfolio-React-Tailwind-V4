@@ -27,13 +27,13 @@ Co-Founder of **Endless Raven Pvt Ltd**
 
 ### Visit my Portfolio !
 
-🌐 Website: [https://saveenmaduranga.vercel.app/](#)
+🌐 Visit my Portfolio: [https://saveenmaduranga.vercel.app/](#)
 
 ---
 
 ### 📫 Connect With Me  
-- 📧 Email: saveenonline@gmail.com  
-- 💼 LinkedIn: [https://www.linkedin.com/in/saveen-maduranga-939250181/](#)
+- Email: saveenonline@gmail.com  
+- LinkedIn: [https://www.linkedin.com/in/saveen-maduranga-939250181/](#)
 ---
 
 
