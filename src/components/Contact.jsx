@@ -85,7 +85,7 @@ const Contact = () => {
                 id="name"
                 autoComplete="name"
                 required
-                placeholder="Saveen Maduranga"
+                placeholder="Enter your name"
                 className="text-field reveal-up"
               />
 
@@ -105,7 +105,7 @@ const Contact = () => {
                 id="email"
                 autoComplete="email"
                 required
-                placeholder="saveen123@gmail.com"
+                placeholder="example@gmail.com"
                 className="text-field reveal-up"
               />
 
