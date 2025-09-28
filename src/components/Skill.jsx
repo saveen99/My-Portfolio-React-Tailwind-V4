@@ -60,26 +60,6 @@ const skillItem = [
     label: 'Jira',
     desc: 'Project Management Tool'
   },
-  {
-    imgSrc: Kotlin,
-    label: 'Kotlin',
-    desc: 'Programming Language'
-  },
-  {
-    imgSrc: Flutter,
-    label: 'Flutter',
-    desc: 'UI Framework'
-  },
-  {
-    imgSrc: Dart,
-    label: 'Dart',
-    desc: 'Programming Language'
-  },
-  {
-    imgSrc: SQLite,
-    label: 'SQLite',
-    desc: 'Database Engine'
-  },
 ];
 
 const Skill = () => {
