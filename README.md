@@ -1,7 +1,7 @@
 ### Hi, I'm Saveen Maduranga
 
 Passionate about technology, problem-solving, and building creative digital solutions.  
-Reading BSc (Hons) in Computing at **Coventry Univercity UK**  
+Reading BSc (Hons) in Computing at **Coventry University UK**  
 Co-Founder of **Endless Raven Pvt Ltd**  
 
 ---
