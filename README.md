@@ -1,4 +1,4 @@
-### Hi, I'm Saveen Maduranga
+## Hi, I'm Saveen Maduranga
 
 Passionate about technology, problem-solving, and building creative digital solutions.  
 Reading BSc (Hons) in Computing at **Coventry University UK**  
