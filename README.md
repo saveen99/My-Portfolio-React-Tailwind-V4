@@ -27,7 +27,6 @@
 
 
 
-
 ### Hi, I'm Saveen Maduranga
 
 Passionate about technology, problem-solving, and building creative digital solutions.  
