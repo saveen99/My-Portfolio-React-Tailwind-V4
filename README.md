@@ -1,22 +1,3 @@
-## Hi, I'm Saveen Maduranga
-
-Passionate about technology, problem-solving, and building creative digital solutions.  
-Reading BSc (Hons) in Computing at **Coventry University UK**  
-Co-Founder of **Endless Raven Pvt Ltd**  
-
----
-
-### Tech Stack 
-
-- **Programming Languages**: JavaScript, TypeScript, Java, Dart
-- **Frontend Frameworks**: React.js, Tailwind CSS, Flutter, Next.js 
-- **Backend Frameworks**: Node.js, Express.js, Spring Boot 
-- **Databases**: MySQL, MongoDB, SQLite  
-- **Tools & Platforms**: Git, GitHub, Jira, Redux, Docker 
-- **IDEs**:  VS Code, Android Studio
-
----
-
 ### Visit my Portfolio !
 
 🌐 Visit my Portfolio: [https://saveenmaduranga.vercel.app/](#)
