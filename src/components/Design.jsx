@@ -1,48 +1,67 @@
-/**
- * @copyright 2025 Saveen Maduranga
- */
-
-/**
- * Components & Images
- */
+import { useState } from "react";
 import DesignCard from "./DesignCard";
 
-import project1 from "../assets/images/project-1.png";
-import project2 from "../assets/images/project-2.png";
-import project3 from "../assets/images/project-3.png";
-import project4 from "../assets/images/project-4.png";
-import project5 from "../assets/images/project-5.png";
-import project6 from "../assets/images/project-6.png";
+import design1 from "../assets/images/design-1.png";
+import design2 from "../assets/images/design-2.png";
+import design3 from "../assets/images/design-3.png";
+import design4 from "../assets/images/design-4.png";
+import design5 from "../assets/images/design-5.png";
+import design6 from "../assets/images/design-6.png";
+import design7 from "../assets/images/design-7.png";
+import design8 from "../assets/images/design-8.png";
+import design9 from "../assets/images/design-9.png";
+import design10 from "../assets/images/design-10.png";
+import design11 from "../assets/images/design-11.png";
+import design12 from "../assets/images/design-12.png";
 
 const design = [
-  { imgSrc: project1 },
-  { imgSrc: project2 },
-  { imgSrc: project3 },
-  { imgSrc: project4 },
-  { imgSrc: project5 },
-  { imgSrc: project6 },
+  { imgSrc: design3 },
+  { imgSrc: design4 },
+  { imgSrc: design5 },
+  { imgSrc: design6 },
+  { imgSrc: design7 },
+  { imgSrc: design8 },
+  { imgSrc: design10 },
+  { imgSrc: design11 }
 ];
 
 const Design = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+
   return (
-    <section
-      id="design"
-      className="section"
-    >
+    <section id="design" className="section">
       <div className="container">
         <h2 className="headline-2 mb-8 reveal-up">
-          Social Media Designs
+          A few social media design works
         </h2>
 
-        <div className="grid gap-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
+        {/* GRID (ALL SAME SIZE) */}
+        <div className="grid gap-5 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
           {design.map(({ imgSrc }, key) => (
-            <DesignCard
+            <div
               key={key}
-              imgSrc={imgSrc}
-            />
+              onClick={() => setSelectedImage(imgSrc)}
+              className="cursor-pointer"
+            >
+              <DesignCard imgSrc={imgSrc} />
+            </div>
           ))}
         </div>
       </div>
+
+      {/* MODAL - ORIGINAL IMAGE */}
+      {selectedImage && (
+        <div
+          className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4"
+          onClick={() => setSelectedImage(null)}
+        >
+          <img
+            src={selectedImage}
+            alt="preview"
+            className="max-w-full max-h-full rounded-lg shadow-2xl"
+          />
+        </div>
+      )}
     </section>
   );
 };

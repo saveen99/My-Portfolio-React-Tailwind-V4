@@ -1,23 +1,8 @@
-/**
- * @copyright 2025 Saveen Maduranga
- */
-
-/**
- * Node modules
- */
 import PropTypes from "prop-types";
 
-const DesignCard = ({
-  imgSrc,
-  classes
-}) => {
+const DesignCard = ({ imgSrc }) => {
   return (
-    <div
-      className={
-        "rounded-2xl overflow-hidden bg-zinc-800 ring-1 ring-inset ring-zinc-50/5 " +
-        classes
-      }
-    >
+    <div className="w-full aspect-square overflow-hidden rounded-2xl bg-zinc-800">
       <img
         src={imgSrc}
         alt="Design Preview"
@@ -30,7 +15,6 @@ const DesignCard = ({
 
 DesignCard.propTypes = {
   imgSrc: PropTypes.string.isRequired,
-  classes: PropTypes.string,
 };
 
 export default DesignCard;
