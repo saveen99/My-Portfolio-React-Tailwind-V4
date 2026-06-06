@@ -36,7 +36,7 @@ const works = [
     imgSrc: project4,
     title: 'E-commerce website',
     tags: ['React', 'Tailwind CSS', 'TypeScript'],
-    projectLink: 'https://shevononlinemart.vercel.app/'
+    projectLink: 'https://e-commerce-react-tailwind-mu.vercel.app/'
   },
   {
     imgSrc: project5,
