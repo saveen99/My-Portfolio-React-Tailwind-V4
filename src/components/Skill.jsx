@@ -22,6 +22,11 @@ const skillItem = [
     desc: 'Design & Editing Tool'
   },
   {
+    imgSrc: canva,
+    label: 'Canva',
+    desc: 'Online Design Platform'
+  },
+  {
     imgSrc: js,
     label: 'JavaScript',
     desc: 'Programming Language'
@@ -30,16 +35,6 @@ const skillItem = [
     imgSrc: react,
     label: 'React JS',
     desc: 'Frontend Library'
-  },
-  {
-    imgSrc: illustrator,
-    label: 'Adobe illustrator',
-    desc: 'Vector Design Software'
-  },
-  {
-    imgSrc: canva,
-    label: 'Canva',
-    desc: 'Online Design Platform'
   },
   {
     imgSrc: tailwind,
@@ -55,6 +50,11 @@ const skillItem = [
     imgSrc: jira,
     label: 'Jira',
     desc: 'Project Management Tool'
+  },
+  {
+    imgSrc: illustrator,
+    label: 'Adobe illustrator',
+    desc: 'Vector Design Software'
   },
 ];
 
