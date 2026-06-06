@@ -26,8 +26,8 @@ const About = () => {
         md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-lg
           md:max-w-[70ch] text-justify tracking-tight">
-            Welcome! I&apos;m Saveen, a passionate Software Engineer with a talent for building efficient, scalable, and user-friendly applications.
-            Blending problem-solving skills with technical precision, I bring your ideas to life through clean code, smart architecture, and seamless functionality. Whether it&apos;s front-end, back-end, or full-stack development — I deliver robust solutions that perform as great as they look.
+            Welcome! I&apos;m Saveen, an ICT professional skilled in Software Development, Web Development, Graphic Design, and Social Media Management. I create modern, responsive, and user-friendly digital solutions by combining creativity with clean and efficient coding practices. 
+            I enjoy building websites, designing visuals, and managing digital content to deliver impactful and engaging results across different platforms.
           </p>
           <div className="flex flex-wrap items-center gap-4
           md:gap-7">
