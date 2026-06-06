@@ -6,72 +6,78 @@
  * Components & images
  */
 import { ButtonPrimary, ButtonOutline } from "./Button";
-import hero_banner from '../assets/images/hero-banner-2.jpeg'
-import avatar from '../assets/images/avatar-2.jpeg'
+import hero_banner from '../assets/images/hero-banner-2.jpeg';
+import avatar from '../assets/images/avatar-2.jpeg';
 
 const Hero = () => {
   return (
-    <section id="home" 
-    className="pt-28 lg:pt-36 mb-[-70px]">
+    <section id="home" className="pt-28 lg:pt-36 mb-[-70px]">
 
-        <div className="container items-center lg:grid 
-        lg:grid-cols-2 lg:gap-10">
+      <div className="container px-4 lg:px-0 lg:grid lg:grid-cols-3 lg:gap-4 lg:items-center">
 
-            <div>
-                <div className="flex items-center gap-3">
-                    <figure className="img-box-hero w-9 h-9 rounded-lg">
-                        <img 
-                            src={avatar} 
-                            width={40}
-                            height={40}
-                            alt="Saveen Maduranga portrait"
-                            className="img-cover" 
-                        />
-                    </figure>
-                    <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
-                        <span className="relative w-2 h-2 rounded-full bg-emerald-400">
-                            <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
-                        </span>
+        {/* TEXT SECTION (2/3) */}
+        <div className="lg:col-span-2 text-left">
 
-                        Available for work
-                    </div>
-                </div>
+          <div className="flex items-center gap-3">
+            <figure className="img-box-hero w-9 h-9 rounded-lg">
+              <img
+                src={avatar}
+                width={40}
+                height={40}
+                alt="Saveen Maduranga portrait"
+                className="img-cover"
+              />
+            </figure>
 
-                <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch]
-                mt-5 mb-8 lg:mb-10">
-                    Building Scalable Modern Websites for the Future
-                </h2>
+            <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
+              <span className="relative w-2 h-2 rounded-full bg-emerald-400">
+                <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
+              </span>
 
-                <div className="flex items-center gap-3">
-                    <ButtonPrimary 
-                        href="https://drive.google.com/file/d/1lBLA4FbKKFY7kaDDTDApkTIxG9o3flvx/view?usp=sharing"
-                        label="Download CV"
-                        icon="download"
-                        classes="ml-2"
-                    />
-
-                    <ButtonOutline
-                        href="#about"
-                        label="Scroll Down"
-                        icon="arrow_downward"
-                    />
-                </div>
-
+              Available for work
             </div>
+          </div>
 
-            <div className="hidden lg:block">
-                <figure className="w-[350px] max-w-[480px] ml-auto bg-gradient-to-t
-                from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-                    <img src={hero_banner} 
-                    width={656}
-                    height={800}
-                    alt="Saveen Maduranga" 
-                    className="w-full" />
-                </figure>
-            </div>
+          <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
+            Designing, Developing & Managing Digital Experiences for a Smarter Future
+          </h2>
+
+          <div className="flex items-center gap-3">
+            <ButtonPrimary
+              href="https://drive.google.com/file/d/1lBLA4FbKKFY7kaDDTDApkTIxG9o3flvx/view?usp=sharing"
+              label="Download CV"
+              icon="download"
+              classes="ml-2"
+            />
+
+            <ButtonOutline
+              href="#about"
+              label="Scroll Down"
+              icon="arrow_downward"
+            />
+          </div>
+
         </div>
+
+        {/* IMAGE SECTION (1/3) */}
+        <div className="hidden lg:block lg:col-span-1">
+          <figure className="w-[350px] max-w-[480px] mx-auto bg-gradient-to-t
+            from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
+
+            <img
+              src={hero_banner}
+              width={656}
+              height={800}
+              alt="Saveen Maduranga"
+              className="w-full"
+            />
+
+          </figure>
+        </div>
+
+      </div>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
