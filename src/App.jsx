@@ -25,6 +25,7 @@ import Hero from "./components/Hero";
 import Skill from "./components/Skill";
 import Work from "./components/Work";
 import Education from './components/Education';
+import Design from './components/Design';
 
 const App = () => {
 
@@ -55,7 +56,7 @@ const App = () => {
         <About />
         <Skill />
         <Work />
-        <Education />
+        <Design />
         <Contact />
       </main>
       <Footer />

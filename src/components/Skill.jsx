@@ -9,17 +9,18 @@ import SkillCard from "./SkillCard";
 import js from '../assets/images/javascript.svg'
 import react from '../assets/images/react.svg'
 import tailwind from '../assets/images/tailwindcss.svg'
-import ts from '../assets/images/typescript.svg'
-import redux from '../assets/images/redux.svg'
-import next from '../assets/images/nextjs.svg'
 import mysql from '../assets/images/mysql.svg'
 import jira from '../assets/images/jira.svg'
-import Kotlin from '../assets/images/Kotlin.svg'
-import Flutter from '../assets/images/Flutter.svg'
-import Dart from '../assets/images/Dart.svg'
-import SQLite from '../assets/images/SQLite.svg'
+import ps from '../assets/images/photoshop.svg'
+import illustrator from '../assets/images/illustrator.svg'
+import canva from '../assets/images/canva.svg'
 
 const skillItem = [
+  {
+    imgSrc: ps,
+    label: 'Adobe Photoshop',
+    desc: 'Design & Editing Tool'
+  },
   {
     imgSrc: js,
     label: 'JavaScript',
@@ -31,24 +32,19 @@ const skillItem = [
     desc: 'Frontend Library'
   },
   {
+    imgSrc: illustrator,
+    label: 'Adobe illustrator',
+    desc: 'Vector Design Software'
+  },
+  {
+    imgSrc: canva,
+    label: 'Canva',
+    desc: 'Online Design Platform'
+  },
+  {
     imgSrc: tailwind,
     label: 'Tailwind CSS',
     desc: 'CSS Framework'
-  },
-  {
-    imgSrc: ts,
-    label: 'TypeScript',
-    desc: 'Superset of JavaScript'
-  },
-  {
-    imgSrc: redux,
-    label: 'Redux Tool kit',
-    desc: 'State Management Tool'
-  },
-  {
-    imgSrc: next,
-    label: 'Next JS',
-    desc: 'Full-Stack Framework'
   },
   {
     imgSrc: mysql,
