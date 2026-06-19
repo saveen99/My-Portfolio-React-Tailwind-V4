@@ -17,16 +17,6 @@ import canva from '../assets/images/canva.svg'
 
 const skillItem = [
   {
-    imgSrc: ps,
-    label: 'Adobe Photoshop',
-    desc: 'Design & Editing Tool'
-  },
-  {
-    imgSrc: canva,
-    label: 'Canva',
-    desc: 'Online Design Platform'
-  },
-  {
     imgSrc: js,
     label: 'JavaScript',
     desc: 'Programming Language'
@@ -50,6 +40,16 @@ const skillItem = [
     imgSrc: jira,
     label: 'Jira',
     desc: 'Project Management Tool'
+  },
+  {
+    imgSrc: ps,
+    label: 'Adobe Photoshop',
+    desc: 'Design & Editing Tool'
+  },
+  {
+    imgSrc: canva,
+    label: 'Canva',
+    desc: 'Online Design Platform'
   },
   {
     imgSrc: illustrator,
