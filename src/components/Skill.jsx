@@ -12,8 +12,8 @@ import tailwind from '../assets/images/tailwindcss.svg'
 import mysql from '../assets/images/mysql.svg'
 import jira from '../assets/images/jira.svg'
 import ps from '../assets/images/photoshop.svg'
-import illustrator from '../assets/images/illustrator.svg'
 import canva from '../assets/images/canva.svg'
+import java from '../assets/images/java.svg'
 
 const skillItem = [
   {
@@ -37,6 +37,11 @@ const skillItem = [
     desc: 'Database'
   },
   {
+    imgSrc: java,
+    label: 'Java',
+    desc: 'Programming Language'
+  },
+  {
     imgSrc: jira,
     label: 'Jira',
     desc: 'Project Management Tool'
@@ -50,11 +55,6 @@ const skillItem = [
     imgSrc: canva,
     label: 'Canva',
     desc: 'Online Design Platform'
-  },
-  {
-    imgSrc: illustrator,
-    label: 'Adobe illustrator',
-    desc: 'Vector Design Software'
   },
 ];
 
