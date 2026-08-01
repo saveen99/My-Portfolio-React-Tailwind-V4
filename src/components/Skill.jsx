@@ -54,7 +54,7 @@ const skillItem = [
   {
     imgSrc: canva,
     label: 'Canva',
-    desc: 'Online Design Platform'
+    desc: 'Design Platform'
   },
 ];
 
