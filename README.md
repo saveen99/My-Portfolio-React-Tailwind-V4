@@ -5,6 +5,6 @@
 ---
 
 ### 📫 Connect With Me  
-* **Email:** [saveenonline@gmail.com](mailto:saveenonline@gmail.com)
-* **LinkedIn:** [Saveen Maduranga](https://www.linkedin.com/in/saveen-maduranga-939250181/)
+**Email:** [saveenonline@gmail.com](mailto:saveenonline@gmail.com)
+**LinkedIn:** [Saveen Maduranga](https://www.linkedin.com/in/saveen-maduranga-939250181/)
 
